@@ -1,6 +1,6 @@
 {
   "name": "@eropple/nestjs-correlation-id",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Middleware for managing X-Correlation-Id headers in NestJS (or any other Express app).",
   "main": "dist",
   "author": "Ed Ropple",
@@ -17,7 +17,6 @@
   },
   "peerDependencies": {
     "@nestjs/common": ">=6.0.0",
-    "@nestjs/swagger": ">=3.0.2",
     "rxjs": ">=6.4.0"
   },
   "devDependencies": {
