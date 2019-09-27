@@ -1,4 +1,6 @@
 # `@eropple/nestjs-correlation-id` #
+[![npm version](https://badge.fury.io/js/%40eropple%2Fnestjs-correlation-id.svg)](https://badge.fury.io/js/%40eropple%2Fnestjs-correlation-id)
+
 This package contains a single global middleware that operates on the
 `X-Correlation-Id` header. If it doesn't exist on the incoming request, it
 generates a random UUID and attaches it to the `X-Correlation-Id` header on the
